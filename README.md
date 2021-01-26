@@ -21,13 +21,13 @@ These lecture materials are designed to supplement, not replace, class discussio
 ---
 
 ## Lecture Topics
-* Lecture 1: Introduction, lecture materials are contained in the [Introductory Material](https://github.com/PHYS1600Spring2021/IntroMaterial) Repo.
-* Lecture 2: Numerical integration.
-* Lecture 3: Numerical derivatives.
-* Lecture 4: Object oriented programming primer.
-* Lecture 5: Solving 1st order initial value problems.
-* Lecture 6: Systems of coupled ODE's. 
-* Lecture 7: Newtons 2nd law, Building a physical model, more object oriented programming.
+* Lecture 0: Introduction, lecture materials are contained in the [Introductory Material](https://github.com/PHYS1600Spring2021/IntroMaterial) Repo.
+* Lecture 1: Numerical integration.
+* Lecture 2: Numerical derivatives.
+* Lecture 3: Object oriented programming primer.
+* Lecture 4: Solving 1st order initial value problems.
+* Lecture 5: Systems of coupled ODE's. 
+* Lecture 6: Newtons 2nd law, Building a physical model, more object oriented programming.
 * ...
 * ... to be updated as class proceeds
 
