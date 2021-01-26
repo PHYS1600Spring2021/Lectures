@@ -14,7 +14,7 @@ and
 
 https://help.github.com/articles/syncing-a-fork/
 
-Additional guides are also available in lectures 2 and 3 posted on Canvas. 
+Additional guides are also available in lectures posted on Canvas. 
 
 These lecture materials are designed to supplement, not replace, class discussions, recorded lectures, and readings.
 
