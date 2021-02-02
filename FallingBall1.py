@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 
 # initial conditions
 y0 = 10.0
