@@ -1,4 +1,4 @@
-
+#! /usr/bin/env python
 # initial conditions
 y0 = 10.0
 v0 = 0.0
