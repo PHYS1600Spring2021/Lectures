@@ -10,10 +10,9 @@ class LogisticMap(object):
         self.muList = [mu]
 
     def map_generator(self):
-        r = self.x
         while True:
-            yield r
-            r =  3.2*r*(1.0-r)
+            yield self.x
+            self.x = self.mu*self.x*(1.0-self.x)
 
     def iterate_gen(self, number=1000):
         count = 0
@@ -21,11 +20,14 @@ class LogisticMap(object):
             if count>number:
                 break
             self.xList.append(r)
+            self.muList.append(self.mu)
             count+=1
+
 
     def map(self):
         self.x = self.mu * self.x * (1.0 - self.x)
         self.xList.append(self.x)
+        self.muList.append(self.mu)
 
     def clear(self):
         self.xList = []
@@ -49,3 +51,16 @@ class LogisticMap(object):
             lam += np.log(self.mu * abs(1.0 - 2.0 * x))
         
         return lam / len(xList_new)
+
+class LogisticMap_iter():
+    def __init__(self, x=0.5, mu=3.2):
+        self.x = x
+        self.mu = mu
+
+    def __next__(self):
+        return_value = self.x
+        self.x =  3.2*self.x*(1.0-self.x)
+        return return_value
+
+    def __iter__(self):
+        return self
